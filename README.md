@@ -1,6 +1,6 @@
 # strapi-provider-upload-dropbox
 
-Dropbox provider for strapi upload
+Dropbox provider for strapi upload for strapi. It only works for strapi version 3.0.0-beta.x or later
 
 ## Installation
 

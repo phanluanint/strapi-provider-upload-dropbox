@@ -1,7 +1,7 @@
 {
   "name": "strapi-provider-upload-dropbox",
-  "version": "1.0.0",
-  "description": "Dropbox provider for strapi upload",
+  "version": "1.0.1",
+  "description": "Dropbox provider for strapi upload for strapi 3.0.0-beta.x",
   "directories": {
     "lib": "./lib"
   },
