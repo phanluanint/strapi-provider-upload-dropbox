@@ -1,7 +1,7 @@
 {
   "name": "strapi-provider-upload-dropbox",
-  "version": "1.0.1",
-  "description": "Dropbox provider for strapi upload for strapi 3.0.0-beta.x",
+  "version": "1.0.2",
+  "description": "Dropbox upload provider for Strapi",
   "directories": {
     "lib": "./lib"
   },
@@ -22,13 +22,13 @@
   "author": {
     "email": "phanluanint@gmail.com",
     "name": "Luan Phan",
-    "url": "https://luanphan.dev"
+    "url": "https://luanphan.now.sh"
   },
   "maintainers": [
     {
       "name": "Luan Phan",
       "email": "phanluanint@gmail.com",
-      "url": "https://luanphan.dev"
+      "url": "https://luanphan.now.sh"
     }
   ],
   "license": "MIT",
@@ -37,8 +37,8 @@
   },
   "homepage": "https://github.com/phanluanint/strapi-provider-upload-dropbox#readme",
   "dependencies": {
-    "dropbox": "^4.0.30",
-    "isomorphic-fetch": "^2.2.1"
+    "dropbox": "^5.2.1",
+    "node-fetch": "^2.6.1"
   },
   "scripts": {
     "test": "echo \"no tests yet\""

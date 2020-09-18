@@ -1,9 +1,8 @@
 # strapi-provider-upload-dropbox
 
-Dropbox provider for strapi upload for strapi. It only works for strapi version 3.0.0-beta.x or later
+Dropbox upload provider for Strapi
 
 ## Installation
-
 ```
 npm install strapi-provider-upload-dropbox --save
 ````
@@ -12,9 +11,27 @@ or
 yarn add strapi-provider-upload-dropbox
 ````
 
-Create your new Dropbox app at https://www.dropbox.com/developers/apps and generate a Access Token for your app
 
-Visit <your_domain>/admin/plugins/upload/configurations/development to configure the provider using Dropbox app's Access Token.
+Go to https://www.dropbox.com/developers/apps and create an app and generate an Access token
+
+
+Create or edit the file at `./config/plugins.js` and configure it using your Dropbox App's Access token
+
+```
+module.exports = ({ env }) => ({
+  upload: {
+    provider: 'dropbox',
+    providerOptions: {
+      accessToken: "<Your Dropbox Access token here>",
+    },
+  },
+});
+```
+
+
+## Compatibility
+Tested on Strapi v3.1.5 — Community Edition
+
 
 ## License
 
